@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<div class="row">
+    <div class="col-sm-3">
+    columns
+    </div>
+    <div class="col-sm-3">
+    columns
+    </div>
+    <div class="col-sm-3">
+      <a href="{% url 'logout' %}" class="btn btn-danger">Logout</a>
+    </div>
+  </div>
+{% endblock %} 
